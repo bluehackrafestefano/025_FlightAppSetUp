@@ -12,9 +12,6 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path
 from decouple import config
-import django_heroku
-
-django_heroku.settings(locals())
 
 
 # Quick-start development settings - unsuitable for production
