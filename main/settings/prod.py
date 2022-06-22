@@ -1,4 +1,5 @@
 from .base import *
+import os
 
 DEBUG = False
 
@@ -64,4 +65,4 @@ LOGGING = {
     },
 }
 
-STATIC_ROOT = 'staticfiles'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
